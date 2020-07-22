@@ -1,0 +1,61 @@
+Introduction :
+
+Addis Ababa is the capital city of Ethiopia and the African Union and is often called the "African Capital" due to its historical, diplomatic, and political significance for the continent. Located in the foothills of the Entoto Mountains and standing 7,726 feet (2,355 meters) above sea level, it is the third highest capital in the world. It is located in the geographic center of the country. The fossilized skeleton, and a plaster replica, of the early hominid Lucy (known in Ethiopia as Dinkinesh) is preserved at the Ethiopian National Museum in Addis Ababa. The city is home to the Ethiopian National Library, the Ethiopian Ethnological Museum (and former palace), the Addis Ababa Museum, the Ethiopian Natural History Museum, the Ethiopian Railway Museum and the National Postal Museum.
+
+Business Problem
+
+Opening of Hotel/Restaurant Shop
+
+I would like to open a hotel/restaurant at the center of Addis Ababa.As it is a tourist and diplomatic spot,there is already lots of attention towards it.I know there will be many competitors in terms of hotel and restauramt.But keeping them in mind,i need to locate my hotel in place where more people are attracted and comfortable for a stay and a good meal.I want to bring foreign and local peoples attention towards my new hotel.I would like to flavour my retaurant recipe with Italian,American,typical Cultural foods to grab their taste.
+
+The challenge is to find a suitable location for opening a new hotel / restaurant attracted to all local and foreign people in the centre of all famous venues.
+
+Expected / Interested Audience
+
+60% local and 40% foreign peoples visit hotel / restaurant once in a year.Some people stay for couple of days or more.Also they find some place for hangout or a good meal.Their main focus might be belonging to stay somewhere near to reach venues.
+
+Data section What data is used?
+
+We will be completely working on Foursquare data to explore and try to locate our new hotel where more venues like church, temples, beach, museums, memorials that are present nearby.
+
+How will we be solving using this data?
+
+We will looking for midpoint area of venues to locate our new hotel.Before that our major focus will be on all venues present in and around the core place.
+Methodology section
+
+In this sections we will perform some data analysis and EDA to find insight from data.We will try to understand the current stats of all given data.Probably,clustering or centroid of all venues will help us to locate new hotel.
+Average distance between hotels and core location is 902 metres
+
+Sana Restaurant  is far than rest of hotels and restaurant.
+
+Vectory restaurant remains close to the core spot.
+
+902 metres is average distance from all hotels to core location.
+
+Explore for other venues around Kanyakumari
+
+A tourist person always wants to visit nearby iconic places.So he wants to reside somewhere nearby to all major venues.We will be exploring more venues around the core location.We will be digging more on main areas or place around 1 km.
+Few more Stats
+
+Most common categories of venues are Church,Parks and Banks in Addis ababa
+Average distance between all hotels is 454 metres.
+Discussion section
+
+From above reports,we could get an idea why the predicted one is pointed/clustered on the given spot.First most thing could be the center of attraction for the place.
+
+KMeans have figured out the most common place for all the venues.This output was very adjacent to the core location.This proves the accurate spotting of our predicted algorithm.
+
+Despite of the findings,there were some lack in data.Tips and ratings were missing for most of the venues.Also when I compared foursquare data with google map ,i could see there were many hotels and venues found missing in foursquare.
+ Conclusion section
+
+As a business person,one would be able to set up a hotel/restaurant on given spot.This will bring revenue automatically as we have located in very near to core one.We proved this with Kmeans.
+
+Future Expectation:
+
+As mentioned earlier,most of data needs to be extracted from googlemaps.Even though we got somewhat accurate prediction.To be very confident on concluding our output,we may need more data to analyse.
+
+Research based on hotel reviews and restaurant menus could be used for future purpose.
+
+My Experience:
+
+It was wonderful journey for me in IBM capstone and other courses.It can aid to layman people as well who dont know a pinch of Data science.Thanks to Coursera for keeping Skilful instructors with their awesome materials
